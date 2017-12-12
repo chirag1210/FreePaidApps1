@@ -121,14 +121,9 @@ public class MainActivity extends AppCompatActivity  {
 
         setContentView(R.layout.activity_main);
 
-        if(Constats.Type.FREE == Constats.type){
-
             TextView tv= (TextView) findViewById(R.id.text);
             tv.setText("Free");
 
-        }else if(Constats.Type.PAID == Constats.type){
-            TextView tv= (TextView) findViewById(R.id.text);
-            tv.setText("Paid");
-        }
+
     }
 }
